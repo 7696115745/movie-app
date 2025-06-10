@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "fir-upload-1289a"
+  },
+  "targets": {
+    "fir-upload-1289a": {
+      "hosting": {
+        "github": [
+           "fir-upload-1289a-46fe9"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
