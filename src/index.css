@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: #000000;
+}
+a{
+  text-decoration: none;
+}
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-color: #ccc #0000;
+  animation: l16 1s infinite linear;
+
+ }
+ .Loader-Container {
+    width: 100%;
+    height: 100vh;
+    background: #0000001c;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.loader::before,
+.loader::after {    
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+}
+.loader::before {
+  border-color: #f03355 #0000;
+  animation: inherit; 
+  animation-duration: .5s;
+  animation-direction: reverse;
+}
+.loader::after {
+  margin: 8px;
+}
+@keyframes l16 { 
+  100%{transform: rotate(1turn)}
+}
+.carousel-caption{
+   left:0 !important;
+text-align: left;
+align-items: center;
+
+}
+.carousel-caption h5{
+ font-size: 50px;
+
+}
+ .carousel-btn>button{
+border-radius:200px ;
+  z-index: 99999 !important;
+
+ }
+ .carousel-control-prev-icon{
+  z-index: 99999 !important;
+ }
+ .carousel-control-prev{
+  width: max-content;
+  padding-left: 20px;
+ }
+ .carousel-control-next{
+  width: max-content;
+    padding-right: 20px;
+
+ }
+ /* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#828281 ;
+  border-radius: 10px;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width:thin;
+  scrollbar-color: #828281 transparent;
+ 
+}
+
