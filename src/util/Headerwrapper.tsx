@@ -7,5 +7,5 @@ export default function HeaderWrapper() {
 
   const shouldShow = !hideHeaderOn.includes(location.pathname);
 
-  return shouldShow ? <Header /> : null;
+  return shouldShow ? <Header /> : null;  
 }
