@@ -10,12 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
-    "@movie-web/providers": "^2.4.13",
     "@tailwindcss/vite": "^4.1.8",
-    "@tanstack/query-sync-storage-persister": "^5.80.6",
     "@tanstack/react-query": "^5.80.6",
-    "@tanstack/react-query-persist-client": "^5.80.6",
     "firebase-tools": "^14.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
