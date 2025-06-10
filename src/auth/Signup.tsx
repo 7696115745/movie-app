@@ -16,7 +16,7 @@ export default function Signup() {
  
     }
 try{
-    const url =import.meta.env.VITE_PUBLIC_API_KEY+`api/signup`;
+    const url =import.meta.env.VITE_PUBLIC_API_KEYS+`api/signup`;
   await Api('POST', url, {
   headers: {
     'Content-Type': 'application/json',
