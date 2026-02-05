@@ -31,8 +31,7 @@ export default function WatchNow() {
           className="absolute top-0 left-0 w-full h-full"
           frameBorder="0"
           allowFullScreen
-          sandbox="allow-scripts allow-same-origin allow-presentation"
-          title="Video Player"
+           title="Video Player"
         ></iframe>
       </div>
 
