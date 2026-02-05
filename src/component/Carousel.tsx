@@ -82,7 +82,7 @@ export default function Carousel() {
 
                   Play</button>
                 <button className="flex items-center gap-2 justify-center bg-gray-700 bg-opacity-60 text-white px-5 py-2 font-semibold hover:bg-opacity-80 transition"><FiPlus />
-                  My Listing list</button>
+                  My list</button>
               </div>
             </div>
           </div>
