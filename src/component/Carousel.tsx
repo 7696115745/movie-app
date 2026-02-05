@@ -72,7 +72,7 @@ export default function Carousel() {
                 <span>{new Date(item.release_date).getFullYear()}</span>
                 <span className="text-yellow-400 font-bold">⭐ {item.vote_average.toFixed(1)}
                 </span>
-                <span className="bg-yellow-400 text-black px-2 py-0.5 rounded text-xs font-bold">IMDb</span>
+                <span className="bg-yellow-400 text-black px-2 py-0.5 rounded text-xs font-bold">IMDB</span>
                 <span className="text-gray-300 hidden md:inline">Action • Drama • Sci-Fi</span>
               </div>
               <p className="text-gray-200 max-w-2xl text-[20px] sm:inline-block hidden">{item.overview}</p>
